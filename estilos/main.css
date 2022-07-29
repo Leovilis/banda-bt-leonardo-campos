@@ -1,0 +1,233 @@
+
+body{
+    min-height: calc(150vh - 107px - 46px) !important;
+}
+
+.img-nav{
+    width:120px; 
+    height:70px;
+}
+
+.nav-titulo{
+    color: white;
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.size-header{
+    text-align: center !important;
+}
+.size{
+    max-width: 18rem !important;
+}
+.cont-titulo{
+    display: flex;
+    font-family: 'Poppins', sans-serif;   
+    width: 1349px;
+}
+
+.cont-titulo img{
+    
+    width: 140px;
+    height: 140px;
+}
+
+.titulo-album{
+    font-size: 5rem;
+    text-align: center;
+    width: 100%;
+    height: 140px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+/* ---INDEX */
+
+.hero {
+    width: auto;
+    height: 80vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.513), rgba(0, 0, 0, 0.423)), url(../img/fondo.jpg);
+    background-position: top ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+
+}
+
+.hero div h1{
+    font-size: 80px;
+    font-weight: 600;
+}
+
+
+.hero div h1:hover
+ {
+    font-size: 90px;
+    color: rgba(255, 255, 255, 0.612);
+}
+
+/* ---XUXUY-PAGE--- */
+
+#xuxuy:hover{
+   
+    color: white;
+    background-image: url(../img/xuxuy.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* --TIERRA-PAGE--- */
+#tierra:hover{
+    color: white;
+    background-image: url(../img/tierra.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* ---CICATRICES-PAGE--- */
+#cicatrices:hover{
+    color: white;
+    background-image: url(../img/cicatrices.jpg);
+    background-position:bottom;
+    background-repeat: no-repeat;
+}
+
+/* ---VINILO-PAGE */
+#vinilo:hover{
+    color: white;
+    background-image: url(../img/vinilo.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+}
+
+
+.bkg-red{
+    background-color: rgb(78, 0, 0) !important ;
+}
+
+.bkg-red:hover{
+    background-color: rgba(0, 0, 0, 0.829) !important;
+}
+
+
+
+/* ---INTEGRANTES-PAGE--- */
+.pelao{
+    -webkit-filter: grayscale(1);
+    filter: gray;
+    filter: grayscale(1);
+}
+
+.size-caja{
+    padding-left: 500px;
+    width: 1400px !important;
+    height: 600px !important;
+}
+
+
+
+.size-caja img{
+    width: 40% !important;
+    height: 93% !important;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0) !important; 
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0) !important;
+}
+.name-color
+{
+    
+        color: #FFFFFF;
+        text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00, 0 10px 20px #ff8000, 0 18px 40px #F00;
+        color: #FFFFFF;
+        text-align: center !important;
+        
+}
+
+/* ---FOOTER--- */
+.footer {
+    background-color: rgba(0, 0, 0, 0.698);
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+    font-size: 20px;
+    height: 46px;
+    
+    
+     width: 100%;
+}
+.margin{
+    margin-top: 30px;
+}
+
+.footer a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+.spot:hover{
+    color: rgb(53, 236, 53);
+}
+
+.face:hover{
+    color: rgb(0, 42, 255);
+    text-shadow: 0.01px white;
+    -webkit-text-stroke: 0.01px rgba(255, 255, 255, 0.846);
+}
+
+
+/* ---MEDIAS QUERRY--- */
+@media screen and (max-width: 600px) {
+    .hero {
+        
+        height: 20vh;
+        background-size:contain;
+    }
+    .hero div h1{
+        font-size: 40px;
+    }
+    .hero div h1:hover{
+        font-size: 41px;
+        
+        }
+    
+}
+
+
+@media screen and (max-width: 760px) {
+    .hero {
+        
+        height: 40vh;
+        background-size:contain;
+    }
+    .hero div h1{
+        font-size: 60px;
+    }
+    .hero div h1:hover{
+        font-size: 61px;
+        
+        }
+
+    .nav-titulo{
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 990px){
+    .hero div h1{
+        font-size: 44px;
+    }
+    .hero div h1:hover{
+        font-size: 45px;
+        
+        }
+
+    .nav-titulo{
+        font-size: 45px;
+    }
+}
