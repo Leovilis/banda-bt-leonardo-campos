@@ -16,50 +16,76 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="../estilos/main.css" />
-    <!-- <link rel="stylesheet" href="/"> -->
-
-    <title>Letras</title>
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon" />
+    <title>Tierra Arrasada</title>
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-dark bg-dark">
-        <div class="container">
-          <a class="navbar-brand" href="#">
-            <img
-              src="../img/android-chrome-512x512.png"
-              alt=""
-              class="img-nav"
-            />
-          </a>
-          <p class="nav-titulo">Battle Cry</p>
-          <ul class="nav">
+      <nav class="navbar navbar-expand-lg navbar-expand-md navbar-dark bg-dark">
+        <!-- Boton de menu -->
+        
+          <button class="navbar-toggler ms-auto m-2 border" type="button"
+          data-bs-toggle="collapse" data-bs-target="#menu"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false" aria-label="Toogle navigation">
+          <span class="navbar-toogler-icon"></span>
+          </button>
+      
+          <div class="collapse navbar-collapse m-2" id="menu">
+            <a class="navbar-brand" href="#">
+              <img src="../img/android-chrome-512x512.png" alt="" class="img-nav" />
+            </a>
+            <p class="nav-titulo ms-auto">Battle Cry</p>
+          <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-                <a href="../index.html" class="nav-link active link-light">Inicio</a>
+              <a href="../index.html" class="nav-link active link-light">Inicio</a>
             </li>
             <li class="nav-item">
-                <a href="../pages/integrantes.html" class="nav-link active link-light">Integrantes</a>
+              <a href="../pages/integrantes.html" class="nav-link link-light"
+                >Integrantes</a
+              >
             </li>
             <li class="nav-item">
-                <a href="../pages/about.html" class="nav-link active link-light">About</a>
+              <a href="../pages/about.html" class="nav-link link-light">About</a>
             </li>
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle link-light" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Discografia</a>
-                <ul class="dropdown-menu">
-                    <li><a class="dropdown-item " href="../pages/xuxuy.html">Xuxuy</a></li>
-                    <li><a class="dropdown-item " href="../pages/tierra.html">Tierra Arrasada</a></li>
-                    <li><a class="dropdown-item " href="../pages/cicatrices.html">Cicatrices</a></li>
-                    <li><a class="dropdown-item " href="../pages/20anios.html">20 Años</a></li>
-                </ul>
+              <a
+                class="nav-link dropdown-toggle link-light"
+                data-bs-toggle="dropdown"
+                href="#"
+                role="button"
+                aria-expanded="false"
+                >Discografia</a
+              >
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="../pages/xuxuy.html">Xuxuy</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="../pages/tierra.html"
+                    >Tierra Arrasada</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="../pages/cicatrices.html"
+                    >Cicatrices</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="../pages/20anios.html"
+                    >20 Años</a
+                  >
+                </li>
+              </ul>
             </li>
           </ul>
         </div>
-      </nav>
     </header>
     <main>
-      <div class="cont-titulo" id="tierra">
-        <img src="../img/tierra.jpg" alt="" class="xuxuy" />
+      <div class="cont-titulo container-lg container-md container-sm" id="tierra">
+        <img src="../img/tierra.jpg" alt="" class="xuxuy img-fluid" />
         <h2 class="titulo-album">Tierra Arrasada - 2013</h2>
-        <img src="../img/tierra.jpg" alt="" class="xuxuy" />
+        <img src="../img/tierra.jpg" alt="" class="xuxuy img-fluid" />
       </div>
       <div class="container">
         <!-- LETRAS -->
@@ -272,14 +298,14 @@
         </div>
   
     </main>
-    <footer class="footer">
+    <footer class=" footer">
       <p>
         Encontranos en
         <a
           href="https://open.spotify.com/artist/5PvOSp0wpSzxdm5TgS8ehx"
           target="_blank"
           class="spot"
-          ><span class="fa fa-facebook"></span>Spotify</a
+          >Spotify</a
         >
         y visita nuestro
         <a

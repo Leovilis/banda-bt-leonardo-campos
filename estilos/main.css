@@ -20,6 +20,8 @@ body{
 .size{
     max-width: 18rem !important;
 }
+
+/* --- ALBUM-PAGE--- */
 .cont-titulo{
     display: flex;
     font-family: 'Poppins', sans-serif;   
@@ -33,7 +35,7 @@ body{
 }
 
 .titulo-album{
-    font-size: 5rem;
+    font-size: 4rem;
     text-align: center;
     width: 100%;
     height: 140px;
@@ -80,6 +82,7 @@ body{
     background-image: url(../img/xuxuy.jpg);
     background-position: center;
     background-repeat: no-repeat;
+    background-size: 73%;
 }
 
 /* --TIERRA-PAGE--- */
@@ -88,6 +91,7 @@ body{
     background-image: url(../img/tierra.jpg);
     background-position: center;
     background-repeat: no-repeat;
+    background-size: 73%;
 }
 
 /* ---CICATRICES-PAGE--- */
@@ -96,6 +100,7 @@ body{
     background-image: url(../img/cicatrices.jpg);
     background-position:bottom;
     background-repeat: no-repeat;
+    background-size: 73%;
 }
 
 /* ---VINILO-PAGE */
@@ -104,6 +109,7 @@ body{
     background-image: url(../img/vinilo.jpg);
     background-position:center;
     background-repeat: no-repeat;
+    background-size: 73%;
 }
 
 
@@ -124,17 +130,11 @@ body{
     filter: grayscale(1);
 }
 
-.size-caja{
-    padding-left: 500px;
-    width: 1400px !important;
-    height: 600px !important;
-}
 
 
 
 .size-caja img{
-    width: 40% !important;
-    height: 93% !important;
+ 
     -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0) !important; 
     box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0) !important;
 }
@@ -182,6 +182,18 @@ body{
 
 
 /* ---MEDIAS QUERRY--- */
+
+@media screen and (max-width: 432px)
+ {
+    .footer p{
+        font-size: 15px;
+    }    
+    .footer a{
+        font-size: 15px;
+    }    
+}
+
+
 @media screen and (max-width: 600px) {
     .hero {
         
@@ -199,7 +211,7 @@ body{
 }
 
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 766px) {
     .hero {
         
         height: 40vh;
@@ -216,18 +228,21 @@ body{
     .nav-titulo{
         font-size: 50px;
     }
+
+   
 }
 
-@media screen and (max-width: 990px){
-    .hero div h1{
-        font-size: 44px;
-    }
-    .hero div h1:hover{
-        font-size: 45px;
-        
-        }
 
-    .nav-titulo{
-        font-size: 45px;
+
+@media screen and (max-width: 992px) {
+    .cont-titulo h2{
+    font-size: 1.3rem !important;
+    }
+}
+
+/* MEDIA Q IMAGENES EN ALBUM */
+@media screen and (max-width: 1192px){
+    .cont-titulo h2{
+        font-size: 3rem;
     }
 }

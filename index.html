@@ -15,7 +15,7 @@
       href="https://fonts.googleapis.com/css2?family=Archivo:wght@300&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins&family=Roboto:wght@300&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="estilos/main.css" />
+    <link rel="stylesheet" href="./estilos/main.css" />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Poppins&display=swap"
@@ -25,23 +25,32 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-dark bg-dark">
-        <div class="container">
-          <a class="navbar-brand" href="#">
-            <img src="img/android-chrome-512x512.png" alt="" class="img-nav" />
-          </a>
-          <p class="nav-titulo">Battle Cry</p>
-          <ul class="nav">
+      <nav class="navbar navbar-expand-lg navbar-expand-md navbar-dark bg-dark">
+        <!-- Boton de menu -->
+        
+          <button class="navbar-toggler ms-auto m-2 border" type="button"
+          data-bs-toggle="collapse" data-bs-target="#menu"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false" aria-label="Toogle navigation">
+          <span class="navbar-toogler-icon"></span>
+          </button>
+      
+          <div class="collapse navbar-collapse m-2" id="menu">
+            <a class="navbar-brand" href="#">
+              <img src="img/android-chrome-512x512.png" alt="" class="img-nav" />
+            </a>
+            <p class="nav-titulo ms-auto">Battle Cry</p>
+          <ul class="navbar-nav ms-auto">
             <li class="nav-item">
               <a href="" class="nav-link active link-light">Inicio</a>
             </li>
             <li class="nav-item">
-              <a href="./pages/integrantes.html" class="nav-link active link-light"
+              <a href="./pages/integrantes.html" class="nav-link link-light"
                 >Integrantes</a
               >
             </li>
             <li class="nav-item">
-              <a href="./pages/about.html" class="nav-link active link-light">About</a>
+              <a href="./pages/about.html" class="nav-link link-light">About</a>
             </li>
             <li class="nav-item dropdown">
               <a
@@ -75,6 +84,7 @@
             </li>
           </ul>
         </div>
+        <!-- </div> -->
       </nav>
     </header>
     <main>
@@ -137,14 +147,14 @@
       </section>
     </main>
 
-    <footer class="footer">
+    <footer class=" footer">
       <p>
         Encontranos en
         <a
           href="https://open.spotify.com/artist/5PvOSp0wpSzxdm5TgS8ehx"
           target="_blank"
           class="spot"
-          ><span class="fa fa-facebook"></span>Spotify</a
+          >Spotify</a
         >
         y visita nuestro
         <a
